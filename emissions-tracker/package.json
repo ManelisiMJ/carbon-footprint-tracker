@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.46",
+    "install": "^0.13.0",
+    "require": "^2.4.20",
+    "xlsx": "^0.18.5",
+    "xslx": "^1.0.0",
+    "type": "module"
+  }
+}

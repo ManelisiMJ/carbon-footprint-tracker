@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Dashboard.html" id="dashboard">Dashboard</a></li>
+                <li><a href="./aboutUs.html" id="aboutUs">About Us</a></li>
+                <li><a href="./ContactUs.html" id="contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="left-column">
+            <h1><u>Council for Carbon Emissions</u></h1>
+            <h2 id="name">Welcome: </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ipsum nec justo auctor condimentum.</p>
+
+            <table id="table_item">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                        <th>Column 4</th>
+                        <th>Column 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                        <td>Row 1, Cell 4</td>
+                        <td>Row 1, Cell 5</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                        <td>Row 2, Cell 4</td>
+                        <td>Row 2, Cell 5</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        <div class="right-column">
+            <canvas id="histogram"></canvas>
+        </div>
+    </div>
+    <h1>There should be a button under this</h1>
+    <button id="helloBtn" onclick="handleButtonClick()">Click Me</button>
+
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/Home.js"></script>
+</body>
+
+</html>
